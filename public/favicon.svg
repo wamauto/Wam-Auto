@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <rect width="64" height="64" rx="14" fill="#09090b"/>
+  <rect x="2" y="2" width="60" height="60" rx="12" stroke="#f59e0b" stroke-width="2" stroke-opacity="0.4"/>
+  <!-- Car Silhouette -->
+  <path d="M12 40 L16 28 C17.5 24 20 22 24 22 L40 22 C44 22 46.5 24 48 28 L52 40 C53 40 54 41 54 43 L54 46 C54 47 53 48 52 48 L50 48 C50 45 47.5 43 44.5 43 C41.5 43 39 45 39 48 L25 48 C25 45 22.5 43 19.5 43 C16.5 43 14 45 14 48 L12 48 C11 48 10 47 10 46 L10 43 C10 41 11 40 12 40 Z" fill="#f59e0b"/>
+  <!-- Windows -->
+  <path d="M24 25 L38 25 C40 25 41.5 26.5 42 28.5 L44 34 L20 34 L22 28.5 C22.5 26.5 23 25 24 25 Z" fill="#09090b"/>
+  <!-- Diagnostic Pulse Wave -->
+  <path d="M16 35 L24 35 L27 30 L32 40 L37 28 L41 35 L48 35" stroke="#fbbf24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Wheels -->
+  <circle cx="19.5" cy="46" r="4.5" fill="#18181b" stroke="#fbbf24" stroke-width="2"/>
+  <circle cx="44.5" cy="46" r="4.5" fill="#18181b" stroke="#fbbf24" stroke-width="2"/>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wam-auto.fr/sitemap.xml

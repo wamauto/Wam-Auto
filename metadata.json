@@ -1,0 +1,7 @@
+{
+  "name": "WAM Auto - Diagnostic Automobile à Domicile",
+  "description": "Diagnostic électronique automobile à domicile dans les Hauts-de-France (thermiques, hybrides et électriques). Déplacement offert sur l'agglomération lilloise.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

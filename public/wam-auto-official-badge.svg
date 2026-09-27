@@ -1,0 +1,248 @@
+<svg
+  width="500"
+  height="500"
+  viewBox="0 0 500 500"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <defs>
+    <!-- Rich Golden Gradients matching WAM_Auto_logo_120.png -->
+    <linearGradient id="wamGoldLinear" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF572" />
+      <stop offset="25%" stop-color="#FED100" />
+      <stop offset="60%" stop-color="#F5B800" />
+      <stop offset="85%" stop-color="#E59C00" />
+      <stop offset="100%" stop-color="#B87300" />
+    </linearGradient>
+
+    <linearGradient id="wamBevelTop" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFB8" />
+      <stop offset="35%" stop-color="#FFDD1A" />
+      <stop offset="100%" stop-color="#F5B800" />
+    </linearGradient>
+
+    <linearGradient id="wamBevelBottom" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E59C00" />
+      <stop offset="60%" stop-color="#B87300" />
+      <stop offset="100%" stop-color="#804D00" />
+    </linearGradient>
+
+    <linearGradient id="wamChromeSilver" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="45%" stop-color="#F8FAFC" />
+      <stop offset="75%" stop-color="#CBD5E1" />
+      <stop offset="100%" stop-color="#94A3B8" />
+    </linearGradient>
+
+    <filter id="goldGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#FED100" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- 1. Pure Black Background -->
+  <circle cx="250" cy="250" r="248" fill="#000000" />
+
+  <!-- 2. Double Outer Gold Ring Border -->
+  <!-- Outer thick gold ring -->
+  <circle cx="250" cy="250" r="236" fill="none" stroke="url(#wamGoldLinear)" stroke-width="12" />
+  <!-- Inner thin gold ring -->
+  <circle cx="250" cy="250" r="220" fill="none" stroke="#FED100" stroke-width="3" stroke-opacity="0.95" />
+
+  <!-- 3. Speedometer Gauge Arc (Upper Portion) -->
+  <!-- Left smooth arc -->
+  <path
+    d="M 125 160 A 155 155 0 0 1 315 98"
+    stroke="url(#wamGoldLinear)"
+    stroke-width="8"
+    stroke-linecap="round"
+    fill="none"
+  />
+
+  <!-- 5 Radial Gauge Ticks on Upper Right -->
+  <g stroke="url(#wamGoldLinear)" stroke-width="6.5" stroke-linecap="round">
+    <line x1="332" y1="108" x2="350" y2="98" />
+    <line x1="350" y1="122" x2="370" y2="113" />
+    <line x1="366" y1="138" x2="388" y2="130" />
+    <line x1="379" y1="156" x2="402" y2="148" />
+    <line x1="389" y1="175" x2="413" y2="168" />
+  </g>
+
+  <!-- 4. Check Engine Icon with Cutout Lightning Bolt -->
+  <g id="check-engine-badge" transform="translate(0, -5)">
+    <!-- Engine Block -->
+    <path
+      d="M 230 82 H 270 V 90 H 280 V 102 H 294 V 122 H 280 V 132 H 288 V 146 H 268 V 152 H 232 V 146 H 212 V 132 H 220 V 122 H 206 V 102 H 220 V 90 H 230 Z"
+      fill="url(#wamGoldLinear)"
+    />
+    <!-- Cutout Lightning Bolt inside Engine -->
+    <path
+      d="M 255 94 L 241 119 H 251 L 243 144 L 261 115 H 251 L 255 94 Z"
+      fill="#000000"
+    />
+  </g>
+
+  <!-- 5. Sleek Luxury Sports Car Silhouette (Facing Left) -->
+  <g id="sports-car" transform="translate(0, 7)">
+    <!-- Main Car Body Silhouette -->
+    <path
+      d="M 86 205
+         C 92 201, 108 195, 134 190
+         C 152 186, 172 182, 190 178
+         C 210 173, 230 150, 258 143
+         C 285 137, 320 141, 355 156
+         C 382 168, 406 181, 426 185
+         C 432 186, 434 191, 428 196
+         C 420 201, 402 205, 388 205
+         C 384 191, 372 182, 356 182
+         C 340 182, 328 191, 324 205
+         L 182 205
+         C 178 191, 166 182, 150 182
+         C 134 182, 122 191, 118 205
+         C 105 205, 94 205, 86 205 Z"
+      fill="url(#wamGoldLinear)"
+    />
+
+    <!-- Cabin Glass (Windshield, side window, quarter glass) -->
+    <path
+      d="M 198 174 
+         C 220 152, 248 147, 282 149
+         C 318 153, 344 165, 358 175
+         C 328 176, 276 176, 198 174 Z"
+      fill="#000000"
+    />
+
+    <!-- B-pillar divider -->
+    <line x1="286" y1="150" x2="286" y2="175" stroke="url(#wamGoldLinear)" stroke-width="2.5" />
+
+    <!-- Sharp LED Headlight Blade -->
+    <polygon points="88,201 122,194 132,196 98,203" fill="#FFF880" />
+
+    <!-- Door Air Intake / Body Crease -->
+    <path
+      d="M 195 194 Q 255 192 300 189 C 314 187, 320 192, 318 198 C 310 199, 260 200, 195 198 Z"
+      fill="#000000"
+      opacity="0.9"
+    />
+
+    <!-- Muscular Rear Shoulder Accent -->
+    <path
+      d="M 318 186 C 354 183, 390 185, 424 194"
+      stroke="#FFF880"
+      stroke-width="3"
+      stroke-linecap="round"
+    />
+
+    <!-- Front Fender Line -->
+    <path
+      d="M 134 190 C 158 186, 182 183, 204 180"
+      stroke="#FFF880"
+      stroke-width="2.5"
+      stroke-linecap="round"
+    />
+
+    <!-- Lower Side Skirt Line -->
+    <line x1="184" y1="205" x2="322" y2="205" stroke="url(#wamGoldLinear)" stroke-width="3" stroke-linecap="round" />
+  </g>
+
+  <!-- 6. Powerful 3D Beveled "WAM" Letterforms -->
+  <g id="wam-letters">
+    <!-- Ambient 3D Shadow -->
+    <g fill="#000000" opacity="0.65" transform="translate(3, 4)">
+      <path d="M 64 224 L 84 316 L 118 316 L 144 254 L 160 316 L 194 316 L 226 224 L 196 224 L 176 288 L 152 224 L 134 224 L 114 288 L 94 224 Z" />
+      <path d="M 244 224 L 192 316 L 224 316 L 238 290 L 280 290 L 292 316 L 324 316 L 276 224 Z M 249 270 L 259 246 L 270 270 Z" />
+      <path d="M 322 316 L 338 224 L 366 224 L 388 274 L 410 224 L 438 224 L 454 316 L 424 316 L 416 264 L 398 304 L 378 304 L 360 264 L 352 316 Z" />
+    </g>
+
+    <!-- Base Letters with Gold Gradient -->
+    <!-- W -->
+    <path
+      d="M 64 224 L 84 316 L 118 316 L 144 254 L 160 316 L 194 316 L 226 224 L 196 224 L 176 288 L 152 224 L 134 224 L 114 288 L 94 224 Z"
+      fill="url(#wamGoldLinear)"
+    />
+    <!-- W 3D Highlight Bevel (Top Face) -->
+    <path
+      d="M 64 224 L 94 224 L 89 244 L 69 244 Z M 134 224 L 152 224 L 148 244 L 138 244 Z M 196 224 L 226 224 L 219 244 L 191 244 Z M 138 266 L 144 254 L 150 266 Z"
+      fill="url(#wamBevelTop)"
+      opacity="0.9"
+    />
+
+    <!-- A -->
+    <path
+      d="M 244 224 L 192 316 L 224 316 L 238 290 L 280 290 L 292 316 L 324 316 L 276 224 Z M 249 270 L 259 246 L 270 270 Z"
+      fill="url(#wamGoldLinear)"
+    />
+    <!-- A 3D Highlight Bevel (Apex & Crossbar) -->
+    <path
+      d="M 244 224 L 276 224 L 270 238 L 250 238 Z M 238 290 L 280 290 L 277 296 L 241 296 Z"
+      fill="url(#wamBevelTop)"
+      opacity="0.9"
+    />
+
+    <!-- M -->
+    <path
+      d="M 322 316 L 338 224 L 366 224 L 388 274 L 410 224 L 438 224 L 454 316 L 424 316 L 416 264 L 398 304 L 378 304 L 360 264 L 352 316 Z"
+      fill="url(#wamGoldLinear)"
+    />
+    <!-- M 3D Highlight Bevel (Top Shoulders) -->
+    <path
+      d="M 338 224 L 366 224 L 361 242 L 341 242 Z M 410 224 L 438 224 L 433 242 L 413 242 Z"
+      fill="url(#wamBevelTop)"
+      opacity="0.9"
+    />
+  </g>
+
+  <!-- 7. "— AUTO —" Section with Flanking Gold Bars -->
+  <g id="auto-section">
+    <!-- Left Gold Bar -->
+    <rect x="48" y="346" width="78" height="9" rx="4.5" fill="url(#wamGoldLinear)" />
+
+    <!-- Metallic Chrome AUTO -->
+    <g id="auto-letters">
+      <path d="M 166 338 L 152 368 L 161 368 L 165 360 L 177 360 L 180 368 L 189 368 L 175 338 Z M 168 353 L 171 345 L 174 353 Z" fill="url(#wamChromeSilver)" />
+      <path d="M 200 338 L 200 358 C 200 365, 205 369, 213 369 C 221 369, 226 365, 226 358 L 226 338 L 217 338 L 217 357 C 217 360, 215 362, 213 362 C 211 362, 209 360, 209 357 L 209 338 Z" fill="url(#wamChromeSilver)" />
+      <path d="M 239 338 L 239 345 L 248 345 L 248 368 L 257 368 L 257 345 L 266 345 L 266 338 Z" fill="url(#wamChromeSilver)" />
+      <path d="M 288 337 C 278 337, 271 344, 271 353 C 271 362, 278 369, 288 369 C 298 369, 305 362, 305 353 C 305 344, 298 337, 288 337 Z M 288 344 C 293 344, 296 348, 296 353 C 296 358, 293 362, 288 362 C 283 362, 280 358, 280 353 C 280 348, 283 344, 288 344 Z" fill="url(#wamChromeSilver)" />
+    </g>
+
+    <!-- Right Gold Bar -->
+    <rect x="374" y="346" width="78" height="9" rx="4.5" fill="url(#wamGoldLinear)" />
+  </g>
+
+  <!-- 8. "DIAG AUTO" in Crisp High-Precision White Vector Letters -->
+  <g id="diag-auto-letters" fill="#FFFFFF">
+    <!-- D -->
+    <path d="M 152 393 L 165 393 C 172 393, 176 396, 176 401 C 176 406, 172 409, 165 409 L 152 409 Z M 156 396 L 156 406 L 164 406 C 168 406, 171 404, 171 401 C 171 398, 168 396, 164 396 Z" />
+    <!-- I -->
+    <path d="M 186 393 L 190 393 L 190 409 L 186 409 Z" />
+    <!-- A -->
+    <path d="M 207 393 L 202 409 L 206 409 L 208 404 L 216 404 L 218 409 L 222 409 L 217 393 Z M 209 401 L 212 396 L 215 401 Z" />
+    <!-- G -->
+    <path d="M 242 396 L 239 398 C 236 395, 232 395, 229 397 C 226 399, 224 403, 226 406 C 228 409, 233 409, 236 407 L 236 403 L 231 403 L 231 400 L 240 400 L 240 408 C 236 411, 229 411, 225 407 C 221 403, 222 397, 226 394 C 231 391, 238 392, 242 396 Z" />
+    <!-- A -->
+    <path d="M 271 393 L 266 409 L 270 409 L 272 404 L 280 404 L 282 409 L 286 409 L 281 393 Z M 273 401 L 276 396 L 279 401 Z" />
+    <!-- U -->
+    <path d="M 297 393 L 301 393 L 301 404 C 301 407, 304 409, 308 409 C 312 409, 315 407, 315 404 L 315 393 L 319 393 L 319 404 C 319 409, 314 411, 308 411 C 302 411, 297 409, 297 404 Z" />
+    <!-- T -->
+    <path d="M 329 393 L 341 393 L 341 396 L 337 396 L 337 409 L 333 409 L 333 396 L 329 396 Z" />
+    <!-- O -->
+    <path d="M 354 393 C 348 393, 344 397, 344 401 C 344 405, 348 409, 354 409 C 360 409, 364 405, 364 401 C 364 397, 360 393, 354 393 Z M 354 396 C 358 396, 360 398, 360 401 C 360 404, 358 406, 354 406 C 350 406, 348 404, 348 401 C 348 398, 350 396, 354 396 Z" />
+  </g>
+
+  <!-- 9. Electronic Heartbeat / ECG Wave at Bottom -->
+  <path
+    d="M 148 438 
+       L 226 438 
+       L 233 446 
+       L 240 422 
+       L 248 462 
+       L 256 406 
+       L 264 450 
+       L 271 438 
+       L 352 438"
+    stroke="url(#wamGoldLinear)"
+    stroke-width="6"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+    fill="none"
+  />
+</svg>
