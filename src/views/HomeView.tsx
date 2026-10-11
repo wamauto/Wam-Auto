@@ -18,6 +18,11 @@ import {
   Search
 } from 'lucide-react';
 
+import heroAutomotiveDiagImg from '../assets/images/hero_automotive_diag_1790425202994.jpg';
+import valiseDiagnosticToolImg from '../assets/images/valise_diagnostic_tool_1790432794389.jpg';
+import electricVehicleOnlyImg from '../assets/images/electric_vehicle_only_1790432165771.jpg';
+import carCheckHeadlessImg from '../assets/images/car_check_headless_1790433537919.jpg';
+
 interface HomeViewProps {
   onNavigate: (page: PageView) => void;
   onSelectService: (serviceId: ServiceTierId, motorType?: 'thermique' | 'hybride' | 'electrique', city?: string) => void;
@@ -54,7 +59,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onSelectService 
             {/* Background vehicle image with contrast scrims */}
             <div className="absolute inset-0 z-0">
               <img
-                src="/src/assets/images/hero_automotive_diag_1790425202994.jpg"
+                src={heroAutomotiveDiagImg}
                 alt="Diagnostic automobile électronique à domicile WAM Auto sur véhicule moderne dans le Nord"
                 loading="eager"
                 decoding="async"
@@ -207,7 +212,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onSelectService 
           <div className="lg:col-span-6">
             <div className="relative rounded-3xl overflow-hidden border border-neutral-800 shadow-2xl bg-neutral-900 group">
               <img
-                src="/src/assets/images/valise_diagnostic_tool_1790432794389.jpg"
+                src={valiseDiagnosticToolImg}
                 alt="Valise de diagnostic électronique automobile multimarque haute précision utilisée par WAM Auto"
                 loading="lazy"
                 decoding="async"
@@ -386,7 +391,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onSelectService 
           <div className="rounded-3xl overflow-hidden border border-neutral-800 bg-neutral-900/80 flex flex-col justify-between group">
             <div className="h-64 sm:h-72 relative overflow-hidden">
               <img
-                src="/src/assets/images/electric_vehicle_only_1790432165771.jpg"
+                src={electricVehicleOnlyImg}
                 alt="Diagnostic spécialisé pour véhicules électriques et hybrides haute tension par WAM Auto"
                 loading="lazy"
                 decoding="async"
@@ -428,7 +433,7 @@ export const HomeView: React.FC<HomeViewProps> = ({ onNavigate, onSelectService 
           <div className="rounded-3xl overflow-hidden border border-neutral-800 bg-neutral-900/80 flex flex-col justify-between group">
             <div className="h-64 sm:h-72 relative overflow-hidden">
               <img
-                src="/src/assets/images/car_check_headless_1790433537919.jpg"
+                src={carCheckHeadlessImg}
                 alt="Expertise et inspection mécanique pré-achat sous le capot d'une voiture d'occasion à Lille"
                 loading="lazy"
                 decoding="async"
