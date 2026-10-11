@@ -41,7 +41,7 @@ export const QuickSelector: React.FC<QuickSelectorProps> = ({ onSelectAndBook })
             </span>
           </h3>
           <p className="text-xs text-neutral-400 mt-0.5">
-            Intervention rapide du lundi au samedi dans les Hauts-de-France
+            Intervention rapide du lundi au dimanche (7j/7) dans les Hauts-de-France
           </p>
         </div>
         <div className="text-right shrink-0">

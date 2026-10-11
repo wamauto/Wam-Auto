@@ -52,7 +52,7 @@ export default function App() {
       <div className="bg-neutral-900 border-b border-neutral-800 text-[11px] text-neutral-300 py-1.5 px-4 text-center">
         <span className="inline-flex items-center gap-2">
           <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping" />
-          <span>Intervention à domicile dans les <strong>Hauts-de-France</strong></span>
+          <span>Intervention <strong>7j/7 du Lundi au Dimanche</strong> dans les <strong>Hauts-de-France</strong></span>
           <span aria-hidden="true" className="text-neutral-600">·</span>
           <span className="text-emerald-400 font-semibold">Déplacement OFFERT sur la Métropole Lilloise</span>
           <span aria-hidden="true" className="text-neutral-600">·</span>

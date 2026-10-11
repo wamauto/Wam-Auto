@@ -732,7 +732,7 @@ export const ContactView: React.FC<ContactViewProps> = ({
             <div className="space-y-2.5 text-xs">
               <div className="p-3.5 rounded-2xl bg-neutral-950 border border-neutral-800 space-y-2">
                 <div className="flex items-center justify-between font-semibold text-neutral-200">
-                  <span>Samedi au Jeudi</span>
+                  <span>Lundi au Dimanche (7j/7)</span>
                   <span className="text-emerald-400 text-[11px] font-medium">3 plages / jour</span>
                 </div>
                 <div className="grid grid-cols-3 gap-1.5 text-center font-mono text-[11px]">
@@ -748,13 +748,10 @@ export const ContactView: React.FC<ContactViewProps> = ({
                 </div>
               </div>
 
-              <div className="p-3.5 rounded-2xl bg-amber-400/5 border border-amber-400/25 flex items-center justify-between">
-                <div>
-                  <span className="font-bold text-amber-300 block">Vendredi</span>
-                  <span className="text-[11px] text-neutral-400">Matinée uniquement</span>
-                </div>
-                <span className="font-mono font-bold text-sm text-amber-400 bg-amber-400/10 px-2.5 py-1 rounded-lg border border-amber-400/30">
-                  08h - 12h
+              <div className="p-3 rounded-2xl bg-emerald-400/10 border border-emerald-400/25 flex items-center justify-between text-emerald-300">
+                <span className="font-semibold text-xs">Intervention continue tous les jours</span>
+                <span className="text-[11px] font-bold bg-emerald-400/20 px-2 py-0.5 rounded-md border border-emerald-400/30">
+                  Week-end inclus
                 </span>
               </div>
             </div>
